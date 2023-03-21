@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive, sans-serif;
+    text-align: center;
+}
+.hero{
+    background-image: url('images/victoria.jpg');
+    background-size: contain;
+    width:100%;
+    height: 260px;  
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    margin-bottom:0;
+}
+.town-name, .town-desc{
+    padding:5px 10px;
+    border-radius: 16px;
+}
+.town-name{
+    background: #003566; 
+}
+.town-desc{
+    background: #457b9d;
+}
+.main-content{
+    background: #95d5b2;
+    padding:20px;;
+    
+}
+.activities{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.activities div{
+    width: 33%;
+}
+.activities img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+.desc-activity{
+    padding: 0px 40px;
+}
+.footer{
+    width: 500px;
+    background-color: #d8f3dc;
+    margin: 0 auto; 
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid black;
+    border-radius: 8px;
+}
+.footer img{
+    width:200px;
+    height: 300px;
+}
+.footer-desc{
+    padding: 20px;
+}
+@media(max-width: 760px){
+    .town-name{
+        font-size: 18px;        
+    }
+    .town-desc{
+        font-size: 12px; 
+        padding: 5px 5px;       
+    }
+
+    .activities{
+        flex-direction:column;
+        align-items: center;
+    }
+    .activities div{
+        width:100%;
+    }
+    .footer{
+        flex-direction:column;
+        width: auto;
+    }
+    .footer img{
+       
+        width:200px;
+        height: 300px;
+    }
+}
+
+
+
+
+
